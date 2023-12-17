@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+body{
+    background-color: black;
+    
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main {
+    background-image: url('/images/image4.jpg');
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-size: 100vw;
+}
+
+.box {
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 80vw;
+    height: 62px;
+
+}
+
+nav img {
+    position: relative;
+    z-index: 14;}
+
+nav button {
+    position: relative;
+    z-index: 14;
+}
+.headings{
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position:relative;
+    font-family: 'Martel Sans', sans-serif;
+   height: 87%;
+
+    }
+    .headings :first-child{
+        font-weight:bolder;
+        text-align:center;
+    }
+    .headings :nth-child(2){
+       margin:16px 0px 0px;
+       text-align:center;
+    }
+    .headings :nth-child(3){
+        margin:16px 0px 0px;
+        text-align:center;
+     }
+     .line{
+        height:8px;
+        background-color:rgb(49, 45, 45);
+    }
+    .btn{
+        padding:7px 15px 7px 15px ;
+        font-weight: bold;
+        background-color: red;
+        font-size: 15px;
+        border:none;
+        border-radius: 7px;
+        color:white;
+        cursor:pointer;
+    }
+    .main input{
+        padding:7px 30px 7px 0px;
+        background-color: rgba(23,23,23,0.2);
+        border: 2px solid grey;
+        border-radius: 5px;
+        color:white;
+}
+ 
+ .first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin:auto;
+ }
+ @media screen and (max-width:1100px){
+    .first{
+        flex-wrap:wrap;
+    }
+ }
+ section .text{
+    color:white;
+    text-align: center;
+   }
+   section img{
+    width:35vw;
+    position:relative;
+    z-index:10;
+   }
+   .image{
+    position:relative;
+
+   }
+   .image video{
+    position:absolute;
+    width:27vw;
+    top:51px;
+    right:37px;
+    }
+    section .text h1{
+        font-size: 40px;
+        font-family: 'Martel Sans', sans-serif;
+}
+section .text p{
+    font-size: 16px;
+    font-family: 'Martel Sans', sans-serif;
+    
+}
+.questions h2{
+    
+    text-align: center;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight:bolder;
+    }
+.questions .ques{
+    font-family: 'Martel Sans', sans-serif;
+    display:flex;
+    width:50vw;
+    height:60px;
+    padding:0px 20px;
+    margin:auto;
+    align-items:center ;
+    justify-content:space-between;
+    background-color: rgb(49, 47, 47);
+    color:white;
+    margin-top:5px;
+    margin-bottom: 5px;
+  cursor:pointer;
+}
+.questions .ques:hover{
+    background-color: rgb(108, 107, 107);
+    
+}
+.questions .ques svg{
+    width:20px;
+}
+footer{
+    color:rgba(255,255,255,0.7);
+     max-width: 60vw;
+    margin:auto;
+    font-family: 'Martel Sans', sans-serif;}
+    footer .abc{
+       padding:15px 0px;
+
+    }
+.footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+}
+.footer div{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.footer a{
+   font-size: 14px;
+   color:rgba(255,255,255,0.7);
+   
+}
+@media screen and (max-width:1032px){
+    .footer{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+       
+    }
+    .footer div{
+        display: flex;
+        flex-direction: column;
+        gap:15px;
+    }
+    .footer a{
+       font-size: 14px;
+       color:rgba(255,255,255,0.7);
+       
+    }
+}
+@media screen and (max-width:782px){
+    .footer{
+        display:grid;
+        grid-template-columns: 1fr 1fr ;
+       
+    }
+    .footer div{
+        display: flex;
+        flex-direction: column;
+        gap:15px;
+    }
+    .footer a{
+       font-size: 14px;
+       color:rgba(255,255,255,0.7);
+       
+    }
+}
